@@ -10,9 +10,7 @@ export function ContactSection() {
       <div className="mx-auto max-w-5xl space-y-8 px-4 sm:px-6">
         <div className="space-y-2">
           <h2 className="text-2xl font-semibold tracking-tight sm:text-3xl">Contato</h2>
-          <p className="max-w-2xl text-muted-foreground">
-            Convide para conversar: proposta, freelas ou só trocar ideia sobre front-end.
-          </p>
+          
         </div>
         <div className="flex flex-wrap gap-3">
           <Button nativeButton={false} render={<Link href={`mailto:${siteConfig.email}`} />}>
