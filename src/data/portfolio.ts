@@ -126,11 +126,13 @@ export const socialLinks: SocialLink[] = [
 ];
 
 export const aboutMe = `
-Sou desenvolvedor frontend e full-stack com foco em React, Next.js e TypeScript.
+Sou recém-licenciado em Engenharia Informática com foco no desenvolvimento frontend e full-stack utilizando React, Next.js, TypeScript e Node.js.
 
-Tenho experiência no desenvolvimento de aplicações web e mobile, integração de APIs REST, autenticação JWT e construção de interfaces modernas e responsivas.
+Tenho experiência no desenvolvimento de aplicações web e mobile, integração de APIs REST, autenticação JWT e construção de interfaces modernas, responsivas e centradas na experiência do utilizador.
 
-Recentemente venho aprofundando conhecimentos em arquitetura frontend, componentes reutilizáveis, Prisma, Tailwind CSS e ecossistema Next.js através de projetos reais e colaboração em plataformas empresariais.
+Nos últimos meses venho aprofundando conhecimentos em arquitetura frontend, componentes reutilizáveis, Prisma, Tailwind CSS e ecossistema Next.js através de projetos pessoais, aplicações full-stack e colaboração em plataformas empresariais.
+
+Gosto de aprender novas tecnologias, resolver problemas e construir soluções escaláveis que unam boa performance, organização e uma experiência intuitiva para o utilizador.
 `;
 
 export const certificates = [
