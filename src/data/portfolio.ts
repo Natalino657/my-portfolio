@@ -63,6 +63,7 @@ export const projects: Project[] = [
     description:
       "Website oficial da BUTURFOGO, serviço de transfers e passeios na Ilha do Fogo, Cabo Verde. Site bilingue (PT/EN) com passeios organizados por destino, carrossel de fotografias, preços por viatura e reservas diretas via WhatsApp.",
     tags: ["Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui", "i18n (PT/EN)", "WhatsApp"],
+    href: "https://www.buturfogo.cv",
     repo: "https://github.com/Natalino657/buturfogo",
     featured: true,
   },
