@@ -6,13 +6,16 @@ import { useTheme } from "next-themes";
 
 import { Button } from "@/components/ui/button";
 
+const subscribeNoop = () => () => {};
+
 export function ModeToggle() {
   const { resolvedTheme, setTheme } = useTheme();
-  const [mounted, setMounted] = React.useState(false);
-
-  React.useEffect(() => {
-    setMounted(true);
-  }, []);
+  // true só no cliente; evita mismatch de hidratação sem setState num efeito
+  const mounted = React.useSyncExternalStore(
+    subscribeNoop,
+    () => true,
+    () => false,
+  );
 
   if (!mounted) {
     return (

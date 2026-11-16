@@ -9,6 +9,7 @@ export type Project = {
   tags: string[];
   href?: string;
   repo?: string;
+  featured?: boolean;
 };
 
 export type SocialLink = {
@@ -31,8 +32,8 @@ export const siteConfig = {
 export const navItems: NavItem[] = [
   { label: "Início", href: "#inicio" },
   { label: "Sobre", href: "#sobre" },
-  { label: "Skills", href: "#skills" },
   { label: "Projetos", href: "#projetos" },
+  { label: "Skills", href: "#skills" },
   { label: "Contato", href: "#contato" },
 ];
 
@@ -57,6 +58,15 @@ export const skills: string[] = [
 ];
 
 export const projects: Project[] = [
+  {
+    title: "BUTURFOGO",
+    description:
+      "Website oficial da BUTURFOGO, serviço de transfers e passeios na Ilha do Fogo, Cabo Verde. Site bilingue (PT/EN) com passeios organizados por destino, carrossel de fotografias, preços por viatura e reservas diretas via WhatsApp.",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui", "i18n (PT/EN)", "WhatsApp"],
+    repo: "https://github.com/Natalino657/buturfogo",
+    featured: true,
+  },
+
   {
     title: "SmartFactoryPRO",
     description:
@@ -109,8 +119,6 @@ export const projects: Project[] = [
     ],
     repo: "https://github.com/Natalino657",
   },
-
-  
 ];
 
 export const socialLinks: SocialLink[] = [
